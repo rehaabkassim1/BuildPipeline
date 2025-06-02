@@ -1,0 +1,17 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: auth-server
+  security:
+    user:
+      name: admin
+      password: admin
+logging:
+  level:
+    root: INFO
+    security:
+    '[org.springframework]': DEBUG
+  file:
+    name: D:/startup.log
+    
